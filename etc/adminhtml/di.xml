@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * K2 Software
+ *
+ * @category Magento
+ * @package  K2_ProductFileAttribute
+ * @author   K2
+ * @license  https://store.k2.com/license.html
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <virtualType name="Magento\Catalog\Ui\DataProvider\Product\Form\Modifier\Pool">
+        <arguments>
+            <argument name="modifiers" xsi:type="array">
+                <item name="agreement_file" xsi:type="array">
+                    <item name="class" xsi:type="string">K2\ProductFileAttribute\Ui\DataProvider\Product\Form\Modifier\File</item>
+                    <item name="sortOrder" xsi:type="number">10</item>
+                </item>
+            </argument>
+        </arguments>
+    </virtualType>
+</config>

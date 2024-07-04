@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * K2 Software
+ *
+ * @category Magento
+ * @package  K2_ProductFileAttribute
+ * @author   K2
+ * @license  https://store.k2.com/license.html
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
+    <module name="K2_ProductFileAttribute" setup_version="2.0.0"></module>
+</config>
