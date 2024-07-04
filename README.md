@@ -2,24 +2,13 @@
 
 Magento2 K2 Product File Attribute Module - allow to add your own custom product file type fields.
 
-How to Install the module 
---------------------------
-copy and paste the downloaded folder & file to app/code/K2/ProductFileAttribute
+This plugin is created to implement the custom functionality to create file type product attributes to upload the files for products.
+-----------------------------------------------------------------------
+How to use:
 
-Run Following Command via terminal
------------------------------------
-php bin/magento setup:upgrade
-
-Install the module via composer
---------------------------
-Run the following commands in terminal-
-
-composer config repositories.product-file-attribute vcs https://github.com/kamlesh4583/product-file-attribute.git
-
-composer require k2/product-file-attribute dev-master
-
-php bin/magento setup:upgrade
-
-now module is properly installed
-
---------------------------
+Clone the repository/Download as Zip
+Create folder app/code/K2/Sortby
+Copy the content of this repository within the folder.
+Run command php bin/magento setup:upgrade
+Verify that you are able to create file type product attributes in the admin.
+-------------------------------------------------------------------------
